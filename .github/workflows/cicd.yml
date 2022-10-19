@@ -13,9 +13,7 @@ jobs:
         
       - name: installing packages
         run: pip install streamlit
-        
-      - name: pandas
-        run: pip install pandas
+
         
       - name: stumpy
         run: pip install stumpy
