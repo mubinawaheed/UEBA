@@ -17,6 +17,7 @@ jobs:
       - run: pip install stumpy
       - run: pip install matplotlib
       - run: pip install pandas
+      - run: pip install matrixprofile
       - run: pip install --upgrade jinja2
 
         
