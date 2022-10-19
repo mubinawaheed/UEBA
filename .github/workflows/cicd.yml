@@ -24,4 +24,4 @@ jobs:
 
         
       - name: running the pyfile
-        run:  streamlit run st_data_display.py
+        run:  python st_data_display.py
