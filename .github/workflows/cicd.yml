@@ -22,4 +22,4 @@ jobs:
 
         
       - name: running the pyfile
-        run:  python index.py
+        run:  python st_data_display.py
