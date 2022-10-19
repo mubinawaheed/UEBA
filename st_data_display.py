@@ -25,7 +25,7 @@ with device:
     dev=pd.read_csv("device.csv")
     st.subheader("Device Data") 
     st.dataframe(dev)
-    # x=dv.profileDate
+    # x=dv.profileDate;
     
     st.image(r'motifs_date.png')
     st.image(r'discord_date.png')
