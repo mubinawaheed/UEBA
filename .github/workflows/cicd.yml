@@ -18,6 +18,8 @@ jobs:
       - run: pip install matplotlib
       - run: pip install pandas
       - run: pip install matrixprofile
+      - run: pip install --upgrade protobuf
+
       - run: pip install --upgrade jinja2
 
         
