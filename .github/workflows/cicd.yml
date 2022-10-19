@@ -10,21 +10,7 @@ jobs:
       
       - name: Starting CI
         run: echo "starting CI pipeline"
-        
-      - name: installing packages
-        run: pip install streamlit
-        
-      - run: pip install pandas
-      - run: pip install --upgrade jinja2
-        
-      - name: stumpy
-        run: pip install stumpy
-        
-      - name: numpy
-        run: pip install numpy
-      
-      - name: matplotlib
-        run: pip install matplotlib
+
         
       - name: running the pyfile
         run: streamlit run st_data_display.py
