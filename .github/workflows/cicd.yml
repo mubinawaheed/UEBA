@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
       
       - name: Starting CI
@@ -17,4 +17,4 @@ jobs:
 
         
       - name: running the pyfile
-        run: streamlit run st_data_display.py
+        run:  python st_data_display.py
