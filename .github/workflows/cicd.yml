@@ -6,9 +6,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
       
       - name: Starting CI
         run: echo "starting CI pipeline"
-      - name: Running py file
-        run: python index.py
+        
+      - name: streamlit download
+        run: pip install streamlit
+      - run: pip install stumpy
+      - run: pip install matplotlib
+      - run: pip install pandas
+      - run: pip install matrixprofile
+      - run: pip install protobuf==3.20.*
+
+      - run: pip install --upgrade jinja2
+
+        
+      - name: running the pyfile
+        run:  python st_data_display.py
