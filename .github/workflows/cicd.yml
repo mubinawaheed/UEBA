@@ -12,3 +12,11 @@ jobs:
         run: echo "starting CI pipeline"
       - name: Running py file
         run: python index.py
+      - name: installing packages
+        run: pip install streamlit
+      - name: pandas
+        run: pip install pandas
+        
+      - name: stumpy
+        run: pip install stumpy
+        
