@@ -18,7 +18,7 @@ jobs:
       - run: pip install matplotlib
       - run: pip install pandas
       - run: pip install matrixprofile
-      - run: pip install --upgrade protobuf
+      - run: pip install protobuf==3.20.*
 
       - run: pip install --upgrade jinja2
 
