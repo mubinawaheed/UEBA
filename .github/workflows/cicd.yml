@@ -1,1 +1,12 @@
+name: CI for streamlit
 
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Starting CI
+        run: echo "starting CI pipeline
