@@ -2,9 +2,9 @@
 import pandas as pd
 import streamlit as st
 
-import Device_MP as dv
+# import Device_MP as dv
 
-import matrixprofile as mp
+# import matrixprofile as mp
 
 
 file_names=["device.csv","file.csv","logon.csv","psychometric.csv","email.csv"]
@@ -36,22 +36,22 @@ with device:
     
     # st.line_chart(x['mp'])
     
-with email:
-    em=pd.read_csv("email.csv",nrows=150)
-    st.subheader("Email Data") 
-    st.dataframe(em)
-with file:
-    fl=pd.read_csv("file.csv",nrows=150)
-    st.subheader("file Data")
-    st.dataframe(fl)
-with logon:
-    lgn=pd.read_csv("logon.csv", nrows=150)
-    st.subheader("logon data")
-    st.dataframe(lgn)
-with psychometric:
-    psycho=pd.read_csv("psychometric.csv",nrows=150)
-    st.subheader("psychometric Data")
-    st.dataframe(psycho)
+# with email:
+#     em=pd.read_csv("email.csv",nrows=150)
+#     st.subheader("Email Data") 
+#     st.dataframe(em)
+# with file:
+#     fl=pd.read_csv("file.csv",nrows=150)
+#     st.subheader("file Data")
+#     st.dataframe(fl)
+# with logon:
+#     lgn=pd.read_csv("logon.csv", nrows=150)
+#     st.subheader("logon data")
+#     st.dataframe(lgn)
+# with psychometric:
+#     psycho=pd.read_csv("psychometric.csv",nrows=150)
+#     st.subheader("psychometric Data")
+#     st.dataframe(psycho)
     
     
     
