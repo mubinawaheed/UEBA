@@ -14,6 +14,10 @@ jobs:
         
       - name: streamlit download
         run: pip install streamlit
+      - run: pip install stumpy
+      - run: pip install matplotlib
+      - run: pip install pandas
+      - run: pip install --upgrage jinja2
 
         
       - name: running the pyfile
