@@ -5,6 +5,7 @@ import streamlit as st
 # import Device_MP as dv
 
 # import matrixprofile as mp
+;
 
 
 file_names=["device.csv","file.csv","logon.csv","psychometric.csv","email.csv"]
