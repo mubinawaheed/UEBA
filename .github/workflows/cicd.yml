@@ -17,7 +17,7 @@ jobs:
       - run: pip install stumpy
       - run: pip install matplotlib
       - run: pip install pandas
-      - run: pip install --upgrage jinja2
+      - run: pip install --upgrade jinja2
 
         
       - name: running the pyfile
