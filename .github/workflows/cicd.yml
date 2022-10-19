@@ -10,3 +10,5 @@ jobs:
       
       - name: Starting CI
         run: echo "starting CI pipeline"
+      - name: Running py file
+        run: python index.py
