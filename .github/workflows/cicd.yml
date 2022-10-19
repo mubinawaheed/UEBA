@@ -7,9 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v3
       
       - name: Starting CI
         run: echo "starting CI pipeline"
+        
+      - name: streamlit download
+        run: pip install streamlit
 
         
       - name: running the pyfile
