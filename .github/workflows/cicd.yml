@@ -10,10 +10,10 @@ jobs:
       
       - name: Starting CI
         run: echo "starting CI pipeline"
-      - name: Running py file
-        run: python index.py
+        
       - name: installing packages
         run: pip install streamlit
+        
       - name: pandas
         run: pip install pandas
         
@@ -25,3 +25,6 @@ jobs:
       
       - name: matplotlib
         run: pip install matplotlib
+        
+      - name: running the pyfile
+        run: streamlit run st_data_display.py
