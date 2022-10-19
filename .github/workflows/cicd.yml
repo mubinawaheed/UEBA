@@ -20,3 +20,8 @@ jobs:
       - name: stumpy
         run: pip install stumpy
         
+      - name: numpy
+        run: pip install numpy
+      
+      - name: matplotlib
+        run: pip install matplotlib
