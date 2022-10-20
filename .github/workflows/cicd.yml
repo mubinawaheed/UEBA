@@ -13,14 +13,14 @@ jobs:
         run: echo "starting CI pipeline"
         
       - name: streamlit download
-      - run: pip install streamlit
-      - run: pip install --upgrade pip
+        run: pip install streamlit
       - run: pip install stumpy
+      - run: pip install matplotlib
       - run: pip install pandas
-      - run: pip install numpy
+      - run: pip install matrixprofile
+      - run: pip install protobuf==3.20.*
 
       - run: pip install --upgrade jinja2
-      - run: pip install matplotlib --force-reinstall
 
         
       - name: running the pyfile
