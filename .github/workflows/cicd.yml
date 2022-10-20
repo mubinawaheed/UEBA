@@ -21,7 +21,7 @@ jobs:
       - run: pip install numpy
 
       - run: pip install --upgrade jinja2
-      - run: pip install matplotlib.pyplot --force-reinstall
+      - run: pip install matplotlib --force-reinstall
 
         
       - name: running the pyfile
