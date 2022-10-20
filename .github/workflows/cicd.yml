@@ -13,7 +13,8 @@ jobs:
         run: echo "starting CI pipeline"
         
       - name: streamlit download
-        run: pip install streamlit
+      - run: pip install streamlit
+      - run: pip install --upgrade pip
       - run: pip install stumpy
       - run: pip install pandas
       - run: pip install matrixprofile
