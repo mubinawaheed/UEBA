@@ -35,11 +35,19 @@ for motif in motifs:
     neighbors.append(smp[motif,1])
 # neighbors
 fig, axes=plt.subplots(2,figsize=figsize,sharex=True)
+<<<<<<< HEAD
 fig.suptitle('Motif Discovery in Device Data(Monthly)')
 axes[0].plot(data['freq'].values)
 axes[0].set_ylabel('Device Data')
 axes[1].set_ylabel('Matrix Profile')
 axes[1].set_xlabel('Time')
+=======
+fig.suptitle('Motif Discovery in Device Data(Monthly)', fontsize=30)
+axes[0].plot(data['freq'].values)
+axes[0].set_ylabel('Device Data',fontsize=20)
+axes[1].set_ylabel('Matrix Profile',fontsize=20)
+axes[1].set_xlabel('Time',fontsize=20)
+>>>>>>> 1c56df338c1b0a97c8cfb4cccd2cdc5413f4c092
 
 
 
@@ -67,7 +75,11 @@ for i in range(1,6):
 #     d_neighbors.append(smp[discord,1])
 # smp[discords,1]
 fig2, axes=plt.subplots(2,figsize=figsize,sharex=True)
+<<<<<<< HEAD
 fig2.suptitle('Anomalies Discovery in Device Data(Monthly)')
+=======
+fig2.suptitle('Anomalies Discovery in Device Data(Monthly)', fontsize=30)
+>>>>>>> 1c56df338c1b0a97c8cfb4cccd2cdc5413f4c092
 axes[0].plot(data['freq'].values)
 axes[0].set_ylabel('Device Data')
 axes[1].set_ylabel('Matrix Profile')
@@ -152,9 +164,15 @@ for i in range(1,6):
 fig2, axes=plt.subplots(2,figsize=figsize,sharex=True)
 fig2.suptitle('Anomalies Discovery in Device Data(Weekly)', fontsize=30)
 axes[0].plot(data_hour['freq'].values)
+<<<<<<< HEAD
 axes[0].set_ylabel('Device Data',fontsize=20)
 axes[1].set_ylabel('Matrix Profile',fontsize=20)
 axes[1].set_xlabel('Time',fontsize=20)
+=======
+axes[0].set_ylabel('Device Data')
+axes[1].set_ylabel('Matrix Profile')
+axes[1].set_xlabel('Time')
+>>>>>>> 1c56df338c1b0a97c8cfb4cccd2cdc5413f4c092
 
 
 
