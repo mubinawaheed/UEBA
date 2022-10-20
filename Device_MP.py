@@ -69,9 +69,9 @@ for i in range(1,6):
 fig2, axes=plt.subplots(2,figsize=figsize,sharex=True)
 fig2.suptitle('Anomalies Discovery in Device Data(Monthly)', fontsize=30)
 axes[0].plot(data['freq'].values)
-axes[0].set_ylabel('Device Data',fontsize=20)
-axes[1].set_ylabel('Matrix Profile',fontsize=20)
-axes[1].set_xlabel('Time',fontsize=20)
+axes[0].set_ylabel('Device Data')
+axes[1].set_ylabel('Matrix Profile')
+axes[1].set_xlabel('Time')
 
 
 
@@ -120,9 +120,9 @@ neighbors
 fig, axes=plt.subplots(2,figsize=figsize,sharex=True)
 fig.suptitle('Motif Discovery in Device Data(Weekly)', fontsize=30)
 axes[0].plot(data_hour['freq'].values)
-axes[0].set_ylabel('Device Data',fontsize=20)
-axes[1].set_ylabel('Matrix Profile',fontsize=20)
-axes[1].set_xlabel('Time',fontsize=20)
+axes[0].set_ylabel('Device Data')
+axes[1].set_ylabel('Matrix Profile')
+axes[1].set_xlabel('Time')
 
 
 
@@ -152,9 +152,9 @@ for i in range(1,6):
 fig2, axes=plt.subplots(2,figsize=figsize,sharex=True)
 fig2.suptitle('Anomalies Discovery in Device Data(Weekly)', fontsize=30)
 axes[0].plot(data_hour['freq'].values)
-axes[0].set_ylabel('Device Data',fontsize=20)
-axes[1].set_ylabel('Matrix Profile',fontsize=20)
-axes[1].set_xlabel('Time',fontsize=20)
+axes[0].set_ylabel('Device Data')
+axes[1].set_ylabel('Matrix Profile')
+axes[1].set_xlabel('Time')
 
 
 
